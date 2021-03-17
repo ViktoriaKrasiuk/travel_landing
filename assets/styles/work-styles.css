@@ -1,0 +1,123 @@
+.work-wave {
+    padding-top: 75px;
+    margin: auto;
+    display: block;
+}
+.work-heading {
+    text-align: center;
+    color: #2c2e37;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.work-container {
+    position: relative;    
+}
+.work-numbers {
+    width: 2em;
+    height: 2em;
+    border: 3px solid #36aeea;
+    border-radius: 200%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color:  #36aeea;   
+}
+.horizontal-dash {
+    border-bottom: dashed 3px;
+    border-color: #f4eeee;
+    width:  96%;
+    left: 59%;
+    top: 3%;
+    position: absolute;
+}
+.kuncij{
+    position: relative;
+    width: 22%;
+    margin: auto;
+}
+
+.vertikal-dash {
+    border-left:dashed;
+    border-color: #f4eeee;
+    height:59px;    
+    width: 3px;
+    margin: auto;
+}
+
+.item-work-container {
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+}
+.work-items {
+    width: 10em;
+    height: 10em;
+    border: 3px solid #f0f3f6;
+    border-radius: 200%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    background-color: #f0f3f6; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.work-items :hover  {
+    background-color: #e3e2e1;
+    border-radius: 200%;
+    width: 10em;
+    height: 10em;
+}
+.work-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color:  #d8d8d8; 
+    text-align: center;
+}
+.work-content-bold {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color:  black;
+    text-align: center;   
+}
+/* media */
+@media (max-width: 1140px){
+   
+}
+@media (max-width: 893px) {
+    .item-work-container {
+        flex-wrap: wrap;
+    }    
+    .kuncij{
+        flex-basis: 50%;
+    }
+    .horizontal-dash{
+        width: 80%;
+    }
+    .dash2{
+        display: none;
+    }
+}
+
+@media (max-width: 640px){
+    
+}
+@media (max-width: 460px) {
+       
+    .kuncij{
+        flex-basis: 100%;
+    }
+    .horizontal-dash{
+        display: none
+    }
+}

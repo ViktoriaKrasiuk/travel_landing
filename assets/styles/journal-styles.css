@@ -1,0 +1,201 @@
+.journal-layout {
+    margin: auto;
+}
+.wave-journal {
+    margin: auto;
+    display: block;
+    margin-top: 72px;
+}
+.journal-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2c2e37;
+    text-transform: uppercase;
+    text-align: center;}
+.journal-flex1 {
+    display: flex;    
+    box-shadow: 0px -5px 10px 1px #f3f3f3;
+    flex-wrap: wrap;
+}
+.journal-photo-container1 {
+    flex-basis: 33.33%;
+    background-image: url(../images/Layer\ 50.png);
+    background-size: cover;
+    width: 379px;
+    height: 379px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.journal-photo-container1:hover .journal-photo1 {
+    display: block;
+}
+.journal-photo1 {
+    display: none;
+}
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    
+    border-right:10px solid white; 
+    position: absolute;
+    right: 0;
+    top: 45px;
+  }
+.journal-photo-container2 {
+    flex-basis: 33.33%;
+    background-image: url(../images/Layer\ 49.png);
+    background-size: cover;
+    width: 379px;
+    height: 379px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.journal-photo-container2:hover .journal-photo2 {
+    display: block;
+}
+.journal-photo2 {
+    display: none;
+}
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;    
+    border-bottom: 10px solid white; 
+    position: absolute;
+    right: 305px;
+    top: 369px;
+  }
+.journal-content-container1 {
+    flex-basis: 33.33%;
+    width: 379px;
+    height: 379px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+.journal-content-name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #16b5ef;
+    text-transform: uppercase;
+    text-align: center; 
+    margin-top: 45px;
+}
+.journal-content-text1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #212121;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 45px;
+
+}
+.journal-content-text2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+    margin-top: 20px;
+}
+.journal-content-number {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #727272;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;  
+}
+
+.journal-photo-container3 {
+    flex-basis: 33.33%;
+    background-image: url(../images/leaf-background.png);
+    background-size: cover;
+    width: 379px;
+    height: 379px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.journal-photo-container3:hover .journal-photo3 {
+    display: block;
+}
+.journal-photo3 {
+    display: none;
+}
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;    
+    border-left: 10px solid white; 
+    position: absolute;
+    right: 370px;
+    top: 49px;
+  }
+.journal-content-container2 {
+    flex-basis: 33.33%;
+    width: 379px;
+    height: 379px;
+}
+.journal-content-container3 {
+    flex-basis: 33.33%;
+    width: 379px;
+    height: 379px;
+}
+
+@media (max-width: 1199.98px){
+
+}
+@media (max-width: 1139.98px){
+    .journal-photo-container1, .journal-photo-container2, .journal-photo-container3 {
+        flex-basis: 50%;
+    }
+    .journal-photo-container1{
+        background-position: center;
+        order: 1;
+    }
+    .journal-photo-container2{
+        background-position: center;
+        order: 3;
+    }
+    .journal-photo-container3{
+        background-position: center;
+        order: 5;
+    }
+    .journal-content-container1{
+        order: 2;  
+        margin: auto;
+    }
+    .journal-content-container2{
+        order: 6;  
+        margin: auto;
+    }
+    .journal-content-container3{
+        order: 4;  
+        margin: auto;
+    }
+}
+@media (max-width: 1199.98px){
+    .journal-photo-container1, .journal-photo-container2, .journal-photo-container3 {
+        flex-basis: 98%;
+    }
+}
+@media (max-width: 640px) {
+    .journal-photo1, .journal-photo2, .journal-photo3 {
+        display: block;
+}
+}
+

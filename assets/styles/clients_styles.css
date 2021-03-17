@@ -1,0 +1,228 @@
+.clients {
+    color: #bcbcbc;
+    margin: auto
+}
+.client-container {
+    display: flex;
+    margin-bottom: 139px;
+    margin-top: 21px;
+}
+.wave {
+    margin: auto;
+    display: block;
+    padding-top: 72px;
+}
+.clients-heading {
+    text-align: center;
+    color: #2c2e37;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 32px;
+    margin-bottom: 92px;
+    line-height: 1em;
+}
+.client-contact-wrap {
+    background-image: url(../images/section-background.png);
+    background-size: cover;
+    background-position: bottom 0 right 50%;
+}
+.review-container {
+  display: flex; 
+  flex-wrap: wrap; 
+}
+.review {
+    flex-basis: 45%;
+    margin: auto;     
+}
+.lapki {
+    margin-bottom: 5px;   
+}
+.contacts {
+    color:#36aeea;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1em;
+}
+.sign-out {
+    color: #3f4244;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.form-container {
+    padding-bottom: 165px;  
+}
+
+.form-contact {
+    padding-top: 41px;
+    width: 520px;
+    margin: auto;
+    clear: both;
+    background-image: url(../images/form-background.png);
+    background-size: cover;
+    border-radius: 6px;
+    text-align: center;
+}
+.form-contact input{
+    width: 448px;
+    height: 54px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    background-color: #ffffff;
+    border: none;
+    padding: 17px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+::placeholder {
+    color: #e8e8e8;
+}
+.form-contact button{
+    width: 448px;
+    height: 70px;
+    border-radius: 4px;
+    color:#ebf5fc;
+    background-color: #36aeea;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 51px;
+}
+.footer-rights {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+footer .footer-rights, footer .footer-social-icons, .footer-phone{
+    width: 33.33%;
+    
+}
+footer .footer-rights, footer  .footer-phone{
+    padding-top: 10px;
+    
+}
+footer .footer-social-icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+}
+footer {
+    background-color: #3e5e69;
+    color: #7ec4d6;
+    height: 84px;
+    width: 100%;
+}
+.footer-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-items: space-between;
+}
+.name-review{
+    color: #36aeea;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15px;
+}
+.occupation-review{
+    color: #83c3ea;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.review-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 0px;
+    line-height: 29px;
+}
+.twitter {
+    background-color: #29c4f5;
+    width: 40px;
+    height: 40px;
+}
+.facebook {
+    background-color: #6788ce;
+    width: 40px;
+    height: 40px;
+}
+.vk {
+    background-color: #54769a;
+    width: 40px;
+    height: 40px;  
+    }
+.twitter-flexbox, .facebook-flexbox, .vk-flexbox {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.twitter-flexbox {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.twitter-flexbox a {
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+.facebook-flexbox {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.facebook-flexbox a {
+    position: relative;
+    top: 4px;
+    left: 2px;
+}
+.vk-flexbox {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.footer-phone a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 27px;
+    color: #7ec4d6;
+}
+
+
+
+/* media */
+@media (max-width: 640px){
+.review {
+    width: 500px;
+    float: none;
+    margin-left: 6%;
+}
+.client-container {
+    margin-bottom: 44px;
+    margin-top: -7px;
+}
+.clients-heading {
+    margin-bottom: 21px;
+    margin-left: 14%;
+    text-align: start;
+}
+    .wave {
+    padding-top: 27px;
+    margin-left: 22%;
+}
+}

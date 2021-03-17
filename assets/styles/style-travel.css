@@ -1,0 +1,109 @@
+.travel {
+    background-image: url(../images/background-travel.png);
+    height: 1000px;
+}
+
+.wave-travel {
+    margin: auto;
+    display: block;
+    padding-top: 100px;
+}
+.travel-heading {
+    text-align: center;
+    color: #2c2e37;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.trawel-images-container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.trawel-comercial1 {
+    background-image: url(../images/Carpatian.png);
+    width: 200px;
+    height: 380px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.trawel-comercial-header {
+    color: white;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;    
+    font-size: 28px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.trawel-comercial-content {
+    color: white;
+    font-family: 'Open Sans', sans-serif;    
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: 300;
+}
+.comercial-price {
+    display: flex;
+    padding-top: 28px;
+    justify-content: space-around;
+    margin-top: -4px;
+}
+.comercial-price-kavkaz {
+    display: flex;
+    padding-top: 28px;
+    justify-content: space-around;
+}
+.comercial-old-price {
+    text-decoration: line-through;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.comercial-new-price {
+    font-weight: bold;
+    text-decoration: blink;
+    font-size: 26px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    line-height: 1em;
+}
+trawel-image1 {
+    margin: auto;
+}
+.trawel-comercial2 {
+    background-image: url(../images/Alp.png);
+    width: 200px;
+    height: 380px;
+    border-radius: 4px;
+}
+.trawel-comercial3 {
+    background-image: url(../images/Layer\ 111.png);
+    width: 200px;
+    height: 380px;
+    border-radius: 4px;
+}
+.trawel-comercial4 {
+    background-image: url(../images/Layer\ 116.png);
+    width: 200px;
+    height: 380px;
+    border-radius: 4px;
+}
+.trawel-comercial5 {
+    background-image: url(../images/Layer\ 117.png);
+    width: 200px;
+    height: 380px;
+    border-radius: 4px;
+}
+
+/* media */
+@media (max-width: 1140px){
+    .trawel-images-container{
+       
+    }
+}
